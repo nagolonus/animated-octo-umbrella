@@ -14,8 +14,6 @@ def Sierpinski():
     others = []
 
     for point in tri:
-        print(point[0])
-        print(point[1])
         draw(point[0],point[1])
 
     for i in range(0,10000):
